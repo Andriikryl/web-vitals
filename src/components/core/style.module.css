@@ -1,0 +1,32 @@
+.core__list{
+    border: 1px solid #03045e;
+    padding-block: 50px;
+    padding-inline: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-block-end: 40px;
+}
+
+.core__item{
+    font-size: 25px;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: all 500ms ease-in-out;
+}
+
+.core__item:hover{
+    transform: scale(1.3);
+}
+
+.core__item:nth-child(1){
+    background-color: #f2cc8f;
+}
+
+.core__item:nth-child(2){
+    background-color: #81b29a;
+}
+
+.core__item:nth-child(3){
+    background-color: #e07a5f;
+}
