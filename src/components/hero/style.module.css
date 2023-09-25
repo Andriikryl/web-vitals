@@ -1,0 +1,12 @@
+.hero{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__title{
+    font-size: clamp(20px, 5vw + 1rem, 40px);
+    color: #0077b6;
+    text-transform: uppercase;
+}
