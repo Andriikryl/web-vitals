@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "../container/Container";
 import style from "./style.module.css";
 import { AnimatedText } from "../animatedText/AnimatedText";
+import Lcp from "../lcp/Lcp";
 
 export default function Core() {
   return (
@@ -19,6 +20,7 @@ export default function Core() {
               <AnimatedText text={"visual stability"} />
             </li>
           </ul>
+          <Lcp />
         </div>
       </Container>
     </section>
