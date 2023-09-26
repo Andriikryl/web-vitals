@@ -4,6 +4,8 @@ import CoreSet from "../coreSet/CoreSet";
 import Qast from "../Qast/Qast";
 import clsx from "clsx";
 import Exempels from "./exempels/Exempels";
+import Breakdown from "./breakdown/Breakdown";
+import Score from "./score/Score";
 
 const data = ["good", "needs improvment", "poor"];
 const LcpEllements = [
@@ -45,6 +47,14 @@ export default function Lcp() {
         })}
       </ul>
       <Exempels />
+      <Breakdown />
+      <Score />
+      <p className={style.desciprion}>
+        Of the four sub-parts, two have the word (delay) in their names. That is
+        a clue that you want to get these times as close to zero as possible.
+        The other two parts involve network requests, which by their very nature
+        take time.
+      </p>
     </div>
   );
 }
