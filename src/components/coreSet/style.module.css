@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     padding-block-end: 150px;
+    margin-block-end: 40px;
 }
 .box__subTitle{
     display: inline-block;

@@ -1,4 +1,4 @@
-.test:nth-child(1)::after{
+.time:nth-child(1)::after{
     content: "2.5 sec";
     display: block;
     font-size: 40px;
@@ -7,7 +7,7 @@
     bottom: -100px;
 }
 
-.test:nth-child(1)::before{
+.time:nth-child(1)::before{
     content: "";
     display: block;
     width: 5px;
@@ -18,7 +18,7 @@
     bottom: -50px;
 }
 
-.test:nth-child(2)::after{
+.time:nth-child(2)::after{
     content: "4.0 sec";
     display: block;
     font-size: 40px;
@@ -27,7 +27,7 @@
     bottom: -100px;
 }
 
-.test:nth-child(3)::before{
+.time:nth-child(3)::before{
     content: "";
     display: block;
     width: 5px;
@@ -35,4 +35,17 @@
     background-color: brown;
     position: absolute;
     bottom: -50px;
+}
+
+.desciprion{
+    font-size: 25px;
+    border-left: 5px solid #ffc300;
+    padding-inline-start: 5px;
+    margin-block-end: 40px;
+}
+.desciprion span{
+    display: inline-block;
+    padding: 5px;
+    background-color: #e63946;
+    color: white;
 }

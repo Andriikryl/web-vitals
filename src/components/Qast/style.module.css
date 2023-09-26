@@ -1,0 +1,37 @@
+.box{
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 500px;
+}
+
+.inner__box{
+    padding: 25px;
+    max-width: 400px;
+    margin-inline: auto;
+    border: 5px solid #e63946;
+    display: grid;
+    place-items: center;
+}
+
+.inner__hover{
+    display: block;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+.hover__box{
+    padding: 20px;
+    max-width: 500px;
+    border: 5px solid #ffc300;
+    display: grid;
+    place-items: center;
+    margin-inline: auto;
+}
+
+.hover__text{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
