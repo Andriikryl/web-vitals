@@ -2,6 +2,8 @@ import React from "react";
 import style from "./style.module.css";
 import CoreSet from "../coreSet/CoreSet";
 import Qast from "../Qast/Qast";
+import clsx from "clsx";
+import Exempels from "./exempels/Exempels";
 
 const data = ["good", "needs improvment", "poor"];
 const LcpEllements = [
@@ -42,6 +44,7 @@ export default function Lcp() {
           );
         })}
       </ul>
+      <Exempels />
     </div>
   );
 }
