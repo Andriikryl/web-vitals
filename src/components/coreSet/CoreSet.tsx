@@ -4,9 +4,9 @@ import clsx from "clsx";
 
 interface CoreSetProps {
   data: string[];
-  subTitle: string;
+  subTitle?: string;
   title: string;
-  desciprion: string;
+  desciprion?: string;
   className?: string;
 }
 

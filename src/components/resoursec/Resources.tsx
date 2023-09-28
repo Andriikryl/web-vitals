@@ -16,6 +16,11 @@ export default function Resources() {
               Optimize Largest Contentful Paint
             </a>
           </li>
+          <li className={style.list__item}>
+            <a className={style.item__link} href="https://web.dev/i18n/en/fcp/">
+              First Contentful Paint (FCP)
+            </a>
+          </li>
         </ul>
       </Container>
     </section>
