@@ -6,6 +6,7 @@ import clsx from "clsx";
 import Exempels from "./exempels/Exempels";
 import Breakdown from "./breakdown/Breakdown";
 import Score from "./score/Score";
+import Loading from "./loading/Loading";
 
 const data = ["good", "needs improvment", "poor"];
 const LcpEllements = [
@@ -55,6 +56,11 @@ export default function Lcp() {
         The other two parts involve network requests, which by their very nature
         take time.
       </p>
+      <p className={style.desciprion}>
+        A good rule of thumb is that your LCP resource should start loading at
+        the same time as the first resource loaded by that page.
+      </p>
+      <Loading/>
     </div>
   );
 }
