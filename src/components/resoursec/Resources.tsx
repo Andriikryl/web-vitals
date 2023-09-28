@@ -21,6 +21,19 @@ export default function Resources() {
               First Contentful Paint (FCP)
             </a>
           </li>
+          <li className={style.list__item}>
+            <a className={style.item__link} href="https://web.dev/i18n/en/cls/">
+              Cumulative Layout Shift (CLS)
+            </a>
+          </li>
+          <li className={style.list__item}>
+            <a
+              className={style.item__link}
+              href="https://web.dev/i18n/en/optimize-cls/#animations"
+            >
+              Optimize Cumulative Layout Shift
+            </a>
+          </li>
         </ul>
       </Container>
     </section>

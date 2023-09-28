@@ -1,0 +1,143 @@
+.score{
+    padding-block: 50px;
+}
+
+.score__title{
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: #edafb8;
+    color: #4a5759;
+    padding: 20px;
+    margin-block-end: 20px;
+}
+
+.score__form{
+    font-size: 20px;
+    color: black;
+    border-left: 4px solid #ffc300;
+    padding-inline-start: 5px;
+}
+
+.mobile{
+    width: 300px;
+    min-height: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15), 
+    0 2px 2px rgba(0,0,0,0.15), 
+    0 4px 4px rgba(0,0,0,0.15), 
+    0 8px 8px rgba(0,0,0,0.15);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10px;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+
+.header span{
+    text-transform: uppercase;
+}
+
+.burger{
+    width: 25px;
+    background-color: #edafb8;
+    height: 2px;
+    position: relative;
+}
+
+.burger::after{
+    content: "";
+    display: block;
+    width: 25px;
+    background-color: #edafb8;
+    height: 2px;   
+    position: absolute;
+    top: 8px;
+}
+
+
+.burger::before{
+    content: "";
+    display: block;
+    width: 25px;
+    background-color: #edafb8;
+    height: 2px;   
+    position: absolute;
+    top: -8px;
+}
+
+.mobile__content{
+    background-color: #d6ccc2;
+}
+
+.mobile__content p{
+    padding: 20px;
+}
+
+.flex__group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-block-end: 20px;
+}
+
+.bottom{
+    padding-block-start: 150px;
+    border: 4px dashed red;
+    background-color: transparent;
+}
+
+.bottom p {
+    background-color: #d6ccc2;
+}
+
+.desciprion{
+    font-size: 25px;
+    padding-inline-start: 10px;
+    border-left: 5px solid #ffc300;
+}
+.bottom__two{
+    background-color: transparent;
+    border: 4px dashed red;
+}
+
+.bottom__two p{
+    background-color: #d6ccc2;
+}
+
+.arrow{
+    margin-inline: auto;
+    width: 5px;
+    height: 150px;
+    background-color: #ffc300;
+    margin-block-end: 20px;
+    position: relative;
+}
+
+.arrow::after{
+    content: "";
+    display: block;
+    width: 5px;
+    height: 50px;
+    background-color: #ffc300;
+    position: absolute;
+    right: 8px;
+    bottom: 0;
+    transform: rotate(-17deg);
+}
+
+.arrow::before{
+    content: "";
+    display: block;
+    width: 5px;
+    height: 50px;
+    background-color: #ffc300;
+    position: absolute;
+    right: -8px;
+    bottom: 0;
+    transform: rotate(17deg);
+}

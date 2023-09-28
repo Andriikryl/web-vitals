@@ -4,6 +4,7 @@ import Hero from "@/components/hero/Hero";
 import Core from "@/components/core/Core";
 import Resources from "@/components/resoursec/Resources";
 import Ttfb from "@/components/ttfb/Ttfb";
+import Cls from "@/components/cls/Cls";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <Core />
       <Ttfb />
+      <Cls />
       <Resources />
     </>
   );

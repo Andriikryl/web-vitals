@@ -23,3 +23,9 @@
     color: #780000;
     text-decoration: none;
 }
+
+.resource__list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

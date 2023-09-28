@@ -1,0 +1,129 @@
+.optimize__title{
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: #edafb8;
+    color: #4a5759;
+    padding: 20px;
+    margin-block-end: 20px;
+}
+
+.flex__group{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.mobile{
+    max-width: 300px;
+    min-height: 500px;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+    0 2px 2px rgba(0,0,0,0.12), 
+    0 4px 4px rgba(0,0,0,0.12), 
+    0 8px 8px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12);
+}
+
+.header{
+    height: 40px;
+    display: grid;
+    place-items: center;
+    margin-block-end: 10px;
+    background-color: #f07167;
+}
+
+.header span{
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.body p{
+    color: #023047;
+}
+
+.body{
+    padding: 10px;
+    background-color: #bde0fe;
+    height: 400px;
+}
+
+.shift{
+    height: 50px;
+    display: grid;
+    place-items: center;
+    background-color: #006d77;
+    margin-block-end: 10px;
+    position: relative;
+}
+.shift span{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+}
+
+.box{
+    display: flex;
+    gap: 30px;
+}
+
+.description__group{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.layout{
+    display: inline-block;
+    color: #e7c6ff;
+    margin-top: 84px;
+    font-size: 16px;
+    position: relative;
+}
+
+.layout::after{
+    content: "";
+    display: block;
+    width: 3px;
+    height: 50px;
+    background-color: #e7c6ff;
+    position: absolute;
+    right: -15px;
+    top: -10px;
+}
+
+
+.content{
+    display: inline-block;
+    color: #fb8b24;
+    margin-top: 190px;
+    font-size: 16px;
+    position: relative;
+}
+
+.content::after{
+    content: "";
+    display: block;
+    width: 3px;
+    height: 400px;
+    background-color: #fb8b24;
+    position: absolute;
+    right: -15px;
+    top:  -167px;
+}
+
+.plaseholder{
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#f745bf 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+    border: 4px dashed #4361ee;
+}
+
+.plaseholder span{
+    color: #bc4749;
+
+}
