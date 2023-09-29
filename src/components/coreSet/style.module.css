@@ -29,6 +29,7 @@
 
 .box__list{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .inner__item{

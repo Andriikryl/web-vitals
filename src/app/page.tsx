@@ -5,6 +5,7 @@ import Core from "@/components/core/Core";
 import Resources from "@/components/resoursec/Resources";
 import Ttfb from "@/components/ttfb/Ttfb";
 import Cls from "@/components/cls/Cls";
+import Fid from "@/components/fid/Fid";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Core />
       <Ttfb />
       <Cls />
+      <Fid />
       <Resources />
     </>
   );

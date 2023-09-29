@@ -1,0 +1,45 @@
+.time:nth-child(1)::after{
+    content: "100 ms";
+    display: block;
+    font-size: 40px;
+    position: absolute;
+    right: -60px;
+    bottom: -100px;
+}
+
+.time:nth-child(1)::before{
+    content: "";
+    display: block;
+    width: 5px;
+    height: 50px;
+    background-color: brown;
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+}
+
+.time:nth-child(2)::after{
+    content: "300 ms";
+    display: block;
+    font-size: 40px;
+    position: absolute;
+    right: -60px;
+    bottom: -100px;
+}
+
+.time:nth-child(3)::before{
+    content: "";
+    display: block;
+    width: 5px;
+    height: 50px;
+    background-color: brown;
+    position: absolute;
+    bottom: -50px;
+}
+
+.description{
+    font-size: 25px;
+    border-left: 5px solid #ffc300;
+    padding-inline-start: 10px;
+    margin-block-end: 20px;
+}

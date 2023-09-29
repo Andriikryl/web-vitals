@@ -34,6 +34,14 @@ export default function Resources() {
               Optimize Cumulative Layout Shift
             </a>
           </li>
+          <li className={style.list__item}>
+            <a
+              className={style.item__link}
+              href="https://nextjs.org/learn/seo/web-performance/fid"
+            >
+              First Input Delay (FID)
+            </a>
+          </li>
         </ul>
       </Container>
     </section>
