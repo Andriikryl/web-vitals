@@ -46,3 +46,13 @@
     padding-inline-start: 10px;
     margin-block-end: 40px;
 }
+
+
+@media (max-width: 1050px) {
+    .time::after{
+        display: none !important;
+    }
+    .time::before{
+        display: none !important;
+    }
+}

@@ -61,3 +61,10 @@
     color: white;
     margin-block-end: 30px;
 }
+
+@media (max-width: 500px) {
+    .score__box{
+        max-width: 300px;
+        max-height: 300px;
+    }
+}

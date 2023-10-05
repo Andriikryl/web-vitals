@@ -29,7 +29,7 @@
 
 .box__list{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .inner__item{
@@ -56,4 +56,18 @@
 
 .list__item:nth-child(3){
     background-color: #ff3333;
+}
+
+
+@media (max-width: 1050px) {
+    .box__list{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .list__item::after{
+        display: none;
+    }
+    .list__item::before{
+        display: none;
+    }
 }
