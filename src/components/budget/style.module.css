@@ -1,0 +1,128 @@
+.budget{
+    padding-block: 100px;
+}
+
+.budget__title{
+    background-color: #dda15e;
+    color: #606c38;
+    padding: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-block-end: 20px;
+}
+
+.budget__list{
+    list-style: none;
+    background-color: #bc6c25;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.list__item{
+    font-size: 20px;
+    color: #fefae0;
+    border-bottom: 5px solid #e76f51;
+    padding-block-end: 20px;
+}
+
+.mobile__box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.mobile{
+    width: 300px;
+    min-height: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.header{
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo{
+    text-transform: uppercase;
+}
+.burger{
+    width: 30px;
+    height: 2px;
+    background-color: tomato;
+    position: relative;
+}
+
+.burger::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: tomato;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+.burger::before{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: tomato;
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
+.item__box{
+    margin-inline: 10px;
+    background-color: #e9edc9;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.item{
+    width: 50px;
+    height: 20px;
+    background-color: #fefae0;
+}
+
+.mobile__text{
+    margin-block-start: 10px;
+    padding-inline: 10px;
+}
+
+.render__title{
+    font-size: 20px;
+    background-color: #6a994e;
+    padding: 20px;
+    color: #f2e8cf;
+    margin-block-end: 20px;
+}
+
+.Unrender__title{
+    font-size: 20px;
+    background-color: #bc4749;
+    padding: 20px;
+    color: #f2e8cf;
+    margin-block-end: 20px;
+}
+
+.time{
+    display: block;
+    width: max-content;
+    font-size: 20px;
+    color: #003566;
+    margin-inline: auto;
+    margin-block-end: 10px;
+}
+
+.box{
+    margin-block-start: 20px;
+}

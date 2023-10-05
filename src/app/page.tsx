@@ -6,6 +6,8 @@ import Resources from "@/components/resoursec/Resources";
 import Ttfb from "@/components/ttfb/Ttfb";
 import Cls from "@/components/cls/Cls";
 import Fid from "@/components/fid/Fid";
+import Inp from "@/components/inp/Inp";
+import Budget from "@/components/budget/Budget";
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
       <Ttfb />
       <Cls />
       <Fid />
+      <Inp />
+      <Budget/>
       <Resources />
     </>
   );
