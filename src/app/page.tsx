@@ -8,6 +8,7 @@ import Cls from "@/components/cls/Cls";
 import Fid from "@/components/fid/Fid";
 import Inp from "@/components/inp/Inp";
 import Budget from "@/components/budget/Budget";
+import Screens from "@/components/screens/Screens";
 
 export default function Home() {
   return (
@@ -18,7 +19,8 @@ export default function Home() {
       <Cls />
       <Fid />
       <Inp />
-      <Budget/>
+      <Budget />
+      <Screens />
       <Resources />
     </>
   );

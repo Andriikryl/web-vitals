@@ -33,6 +33,11 @@ const linksData = [
     title: "    Performance budgets 101",
     href: "https://web.dev/performance-budgets-101/",
   },
+  {
+    id: 7,
+    title: "Choose the right image format",
+    href: "https://web.dev/choose-the-right-image-format/",
+  },
 ];
 
 export default function Resources() {
