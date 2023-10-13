@@ -9,6 +9,7 @@ import Fid from "@/components/fid/Fid";
 import Inp from "@/components/inp/Inp";
 import Budget from "@/components/budget/Budget";
 import Screens from "@/components/screens/Screens";
+import Speed from "@/components/speed/Speed";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Inp />
       <Budget />
       <Screens />
+      <Speed />
       <Resources />
     </>
   );

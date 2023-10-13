@@ -37,16 +37,16 @@ export default function Screens() {
             <span className={style.physical}>40 physical pixls</span>
           </div>
         </div>
-        <table className={style.tabel}>
+        {/* <table className={style.tabel}>
           <caption className={style.caprion}>
             Features of different raster image formats
           </caption>
-          <tr className={style.tr}>
+          <div className={style.tr}>
             <th className={style.types}>Format</th>
             <th className={style.types}>Transparency</th>
             <th className={style.types}>Animation</th>
             <th className={style.types}>Browser</th>
-          </tr>
+          </div>
           <tr className={style.tr}>
             <td className={style.answer} data-cell="Format">
               PNG
@@ -103,7 +103,7 @@ export default function Screens() {
               No. See Can I use?
             </td>
           </tr>
-        </table>
+        </table> */}
       </Container>
     </section>
   );

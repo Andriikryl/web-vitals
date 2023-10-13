@@ -38,6 +38,11 @@ const linksData = [
     title: "Choose the right image format",
     href: "https://web.dev/choose-the-right-image-format/",
   },
+  {
+    id: 8,
+    title: "What is speed?",
+    href: "https://web.dev/articles/what-is-speed",
+  },
 ];
 
 export default function Resources() {
