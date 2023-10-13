@@ -46,6 +46,7 @@
 
 .box{
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -72,7 +73,7 @@
 }
 
 .inner__box{
-    width: max-content;
+    max-width: 300px;
 }
 
 .mobile__title{

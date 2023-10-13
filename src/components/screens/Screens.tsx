@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import style from "./style.module.css";
 import { Container } from "../container/Container";
@@ -37,73 +38,83 @@ export default function Screens() {
             <span className={style.physical}>40 physical pixls</span>
           </div>
         </div>
-        {/* <table className={style.tabel}>
+        <table className={style.tabel}>
           <caption className={style.caprion}>
             Features of different raster image formats
           </caption>
-          <div className={style.tr}>
-            <th className={style.types}>Format</th>
-            <th className={style.types}>Transparency</th>
-            <th className={style.types}>Animation</th>
-            <th className={style.types}>Browser</th>
-          </div>
-          <tr className={style.tr}>
-            <td className={style.answer} data-cell="Format">
-              PNG
-            </td>
-            <td className={style.answer} data-cell="Transparency">
-              Yes
-            </td>
-            <td className={style.answer} data-cell="Animation">
-              No
-            </td>
-            <td className={style.answer} data-cell="Browser">
-              All
-            </td>
-          </tr>
-          <tr className={style.tr}>
-            <td className={style.answer} data-cell="Format">
-              JPEG
-            </td>
-            <td className={style.answer} data-cell="Transparency">
-              No
-            </td>
-            <td className={style.answer} data-cell="Animation">
-              No
-            </td>
-            <td className={style.answer} data-cell="Browser">
-              All
-            </td>
-          </tr>
-          <tr className={style.tr}>
-            <td className={style.answer} data-cell="Format">
-              WebP
-            </td>
-            <td className={style.answer} data-cell="Transparency">
-              Yes
-            </td>
-            <td className={style.answer} data-cell="Animation">
-              Yes
-            </td>
-            <td className={style.answer} data-cell="Browser">
-              All modern browsers. See Can I use?
-            </td>
-          </tr>
-          <tr className={style.tr}>
-            <td className={style.answer} data-cell="Format">
-              AVIF
-            </td>
-            <td className={style.answer} data-cell="Transparency">
-              Yes
-            </td>
-            <td className={style.answer} data-cell="Animation">
-              Yes
-            </td>
-            <td className={style.answer} data-cell="Browser">
-              No. See Can I use?
-            </td>
-          </tr>
-        </table> */}
+          <tbody>
+            <tr className={style.tr}>
+              <th className={style.types}>Format</th>
+              <th className={style.types}>Transparency</th>
+              <th className={style.types}>Animation</th>
+              <th className={style.types}>Browser</th>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr className={style.tr}>
+              <td className={style.answer} data-cell="Format">
+                PNG
+              </td>
+              <td className={style.answer} data-cell="Transparency">
+                Yes
+              </td>
+              <td className={style.answer} data-cell="Animation">
+                No
+              </td>
+              <td className={style.answer} data-cell="Browser">
+                All
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr className={style.tr}>
+              <td className={style.answer} data-cell="Format">
+                JPEG
+              </td>
+              <td className={style.answer} data-cell="Transparency">
+                No
+              </td>
+              <td className={style.answer} data-cell="Animation">
+                No
+              </td>
+              <td className={style.answer} data-cell="Browser">
+                All
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr className={style.tr}>
+              <td className={style.answer} data-cell="Format">
+                WebP
+              </td>
+              <td className={style.answer} data-cell="Transparency">
+                Yes
+              </td>
+              <td className={style.answer} data-cell="Animation">
+                Yes
+              </td>
+              <td className={style.answer} data-cell="Browser">
+                All modern browsers. See Can I use?
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr className={style.tr}>
+              <td className={style.answer} data-cell="Format">
+                AVIF
+              </td>
+              <td className={style.answer} data-cell="Transparency">
+                Yes
+              </td>
+              <td className={style.answer} data-cell="Animation">
+                Yes
+              </td>
+              <td className={style.answer} data-cell="Browser">
+                No. See Can I use?
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </Container>
     </section>
   );
@@ -114,6 +125,7 @@ function BoxBlock({ amount, type }: BoxBlock) {
   for (let i = 0; i < amount; i++) {
     blocks.push(
       <div
+        key={i}
         className={clsx(
           style.block,
           type === "little" && style.little__block,
