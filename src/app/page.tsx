@@ -11,6 +11,7 @@ import Budget from "@/components/budget/Budget";
 import Screens from "@/components/screens/Screens";
 import Speed from "@/components/speed/Speed";
 import LongTasks from "@/components/longTasks/LongTasks";
+import Prpl from "@/components/PRPL/Prpl";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <Screens />
       <Speed />
       <LongTasks />
+      <Prpl />
       <Resources />
     </>
   );

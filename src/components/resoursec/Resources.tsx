@@ -48,6 +48,11 @@ const linksData = [
     title: "Optimize long tasks",
     href: "https://web.dev/articles/optimize-long-tasks",
   },
+  {
+    id: 10,
+    title: "Apply instant loading with the PRPL pattern",
+    href: "https://web.dev/articles/apply-instant-loading-with-prpl",
+  },
 ];
 
 export default function Resources() {

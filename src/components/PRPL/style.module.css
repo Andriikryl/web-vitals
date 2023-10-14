@@ -1,0 +1,28 @@
+.prpl{
+    padding-block: 100px;
+}
+
+.prpl__title{
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: #70d6ff;
+    padding: 20px;
+    color: #e9ff70;
+}
+
+.description__list{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #bc4749;
+}
+
+.list__item{
+    color: #386641;
+    font-size: 20px;
+}
+
+.list__item span{
+    color: #f2e8cf;
+}
