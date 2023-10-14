@@ -43,6 +43,11 @@ const linksData = [
     title: "What is speed?",
     href: "https://web.dev/articles/what-is-speed",
   },
+  {
+    id: 9,
+    title: "Optimize long tasks",
+    href: "https://web.dev/articles/optimize-long-tasks",
+  },
 ];
 
 export default function Resources() {

@@ -10,6 +10,7 @@ import Inp from "@/components/inp/Inp";
 import Budget from "@/components/budget/Budget";
 import Screens from "@/components/screens/Screens";
 import Speed from "@/components/speed/Speed";
+import LongTasks from "@/components/longTasks/LongTasks";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Budget />
       <Screens />
       <Speed />
+      <LongTasks />
       <Resources />
     </>
   );
